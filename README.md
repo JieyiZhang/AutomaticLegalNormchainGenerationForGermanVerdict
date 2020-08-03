@@ -41,3 +41,12 @@ Text classification with BIGRU-ATT and BIGRU-LWAN neural network models. Code fo
 3. Train the neural networks for large-scale text classification problem
 
 ## Text Summarization with BERT-Transformer model
+The pretrained BERT-Transformer model is saved at [link]. Building and training the model include the following steps: 
+
+1. Preprocess input text
+1.1 Clean the text data
+1.2 Select fact of case and reasoning sections as input text
+1.3 For applying BERT encoder, truncate and post-pad the input text to the fixed length of 512
+2 Encoding part of the model is the pre-trained BERT encoder for German language 
+3 The hidden state vectors are then fed into the Transformer decoder part
+4 Train the whole model to predict the norm chains as summarization
