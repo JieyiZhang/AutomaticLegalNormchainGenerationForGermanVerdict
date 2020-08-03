@@ -34,4 +34,10 @@ The code is implemented in MLP_with_position.py.
 
 ## Text classification with DL model
 
+Text classification with BIGRU-ATT and BIGRU-LWAN neural network models. Code for this two models are implemented in Glove_BiGRUAtt.py, BiGRU_LWAN.py, LabelwiseAttention.py. The process includes:
+
+1. Preprocess input text
+2. Embed input text with GloVe as the input data
+3. Train the neural networks for large-scale text classification problem
+
 ## Text Summarization with BERT-Transformer model
