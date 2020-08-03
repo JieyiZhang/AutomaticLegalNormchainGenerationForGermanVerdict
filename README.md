@@ -15,18 +15,22 @@ The functions are implemented in RulebasedApproach.py and the run code RuleBased
 
 ## Text classification with MLP model
 
-MLP model with numeric vector representation of legal norms as input
+1. MLP model with numeric vector representation of legal norms as input
 
 * Numeric vector representation of norms as input for each document
 * Entries are the frequencies of the norms
 * Train different classification models and fine-tuned the best performer
 
-MLP model with numeric vector representation of legal norms and their positions as input
+The code is implemented in MLP.py.
+
+2. MLP model with numeric vector representation of legal norms and their positions as input
 
 * Numeric vector representation of norms as input for each document
 * Each index of the vector represent the norm and its position
 * Entries are the frequencies of the norms in a specific section
 * Train different classification models and fine-tuned the best performer
+
+The code is implemented in MLP_with_position.py.
 
 ## Text classification with DL model
 
