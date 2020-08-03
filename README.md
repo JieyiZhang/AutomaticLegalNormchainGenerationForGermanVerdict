@@ -1,7 +1,7 @@
-# Automatic Legal Normchain Generation For German Verdicts
+# Automatic Legal Normchain Generation For German Legal Verdicts
 Master thesis code
 
-## Dataset preparation
+Seperate the labelled and unlabelled files using the code SeperateFiles.py.
 
 ## Rule-based approach
 
